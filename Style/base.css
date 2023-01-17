@@ -98,6 +98,7 @@ body .winner span {
 @media screen and (max-width: 600px) {
   #table {
     width: 100%;
+    margin-bottom: 30px;
   }
   #table .tile {
     width: 30%;
