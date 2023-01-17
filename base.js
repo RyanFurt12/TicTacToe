@@ -69,6 +69,7 @@ function checkWinner() {
       }
 
       result();
+      return;
     }
   }
 
@@ -85,6 +86,7 @@ function checkWinner() {
       }
 
       result();
+      return;
     }
   }
 
@@ -100,6 +102,7 @@ function checkWinner() {
     }
 
     result();
+    return;
   }
 
   if (
@@ -115,6 +118,7 @@ function checkWinner() {
     tile.classList.add("win");
 
     result();
+    return;
   }
 
   //   Velha
